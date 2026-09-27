@@ -24,6 +24,12 @@ jobs:
       - name: Publish snake files
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
+
+        ## 🐍 GitHub Contribution Snake
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/antarahpardessi24-stack/github-snake/output/github-snake.svg" alt="GitHub Contribution Snake" />
+</p>
           build_dir: dist
           target_branch: output
         env:
